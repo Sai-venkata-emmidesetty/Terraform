@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
-    key    = "path/to/my/key"
+    bucket = "ichigo-backend-for-terraform-project"
+    key    = "path"
     region = "us-east-1"
   }
 }
